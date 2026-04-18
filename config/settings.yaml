@@ -1,0 +1,31 @@
+app_name: 手相双Agent系统
+app_version: 0.1.0
+
+vision:
+  blur_threshold: 60.0
+  min_width: 320
+  min_height: 320
+  non_palm_threshold: 0.22
+  blurry_threshold: 0.55
+
+llm:
+  base_url: ""
+  api_key: ""
+  text_model: ""
+  vision_model: ""
+  summary_model: ""
+  rewrite_model: ""
+  reflect_model: ""
+  temperature: 0.3
+
+rag:
+  hybrid_top_k: 20
+  rerank_top_k: 5
+  chunk_size: 350
+  chunk_overlap: 50
+  dense_weight: 0.45
+  bm25_weight: 0.35
+  graph_weight: 0.20
+
+session:
+  storage_file: storage/sessions.json

@@ -1,0 +1,17 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+PyYAML>=6.0.2
+openai>=1.40.0
+opencv-python>=4.10.0
+Pillow>=10.4.0
+numpy>=1.26.4
+scikit-learn>=1.5.1
+rank-bm25>=0.2.2
+jieba>=0.42.1
+networkx>=3.3
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+sentence-transformers>=3.0.1
+streamlit>=1.37.0
+requests>=2.32.3
